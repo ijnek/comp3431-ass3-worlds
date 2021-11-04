@@ -1,9 +1,14 @@
 # comp3431-ass3-worlds
 
 This ROS2 package contains a sample world for assignment 3.
-Follow standard ROS2 package installation procedure for installation.
+Follow standard ROS2 package installation procedure to use.
+
+Students should be comfortable with building and installing ROS2 packages from source by now. If not,
+ask your teammates, tutors or on Webcms.
 
 ## Launching the sample house1 world
+
+**house1** is the sample world provided in this package.
 
 ```
 ros2 launch comp3431_ass3_worlds house1.launch.py
@@ -17,9 +22,10 @@ There are unique QR codes in all rooms that describe the type of room. For house
 
 
 
-## Note
+## Important Note
 
-The contents of the script `turtlebot3_startup.sh` given in assignment1 is as below:
+The launching of the world was done for you in script `turtlebot3_startup.sh` given in assignment1.
+The contents of that file are as below:
 
 ```
 source ~/turtlebot3_ws/install/setup.bash &&
