@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(comp3431-ass3-worlds)
+project(comp3431_ass3_worlds)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
