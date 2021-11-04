@@ -35,4 +35,4 @@ ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=true
 
 Note that the line given to launch the sample house1 world, is a replacement of the second line above.
 This means that if you `turtlebot3_startup.sh` after launching the house1 world, you're trying to launch two worlds.
-My recommendation would be to add the "setup.bash" line to your bashrc, and add the third cartographer line to a launch file you will write to run all of your nodes in the assignment3.
+My recommendation would be to add the "setup.bash" line to your bashrc, and add the third cartographer line to a launch file you will write to run all of your nodes in assignment3.
