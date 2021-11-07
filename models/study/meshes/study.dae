@@ -12,7 +12,7 @@
   </asset>
   <library_images>
     <image id="study_png" name="study_png">
-      <init_from>study.png</init_from>
+      <init_from>study_orange.png</init_from>
     </image>
   </library_images>
   <library_effects>

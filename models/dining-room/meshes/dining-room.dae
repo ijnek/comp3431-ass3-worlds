@@ -11,21 +11,21 @@
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_images>
-    <image id="kitchen_png" name="kitchen_png">
-      <init_from>kitchen_fanta_apple.png</init_from>
+    <image id="dining-room_png" name="dining-room_png">
+      <init_from>dining-room_coffee_banana.png</init_from>
     </image>
   </library_images>
   <library_effects>
     <effect id="Material_001-effect">
       <profile_COMMON>
-        <newparam sid="kitchen_png-surface">
+        <newparam sid="dining-room_png-surface">
           <surface type="2D">
-            <init_from>kitchen_png</init_from>
+            <init_from>dining-room_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="kitchen_png-sampler">
+        <newparam sid="dining-room_png-sampler">
           <sampler2D>
-            <source>kitchen_png-surface</source>
+            <source>dining-room_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -37,7 +37,7 @@
               <color sid="ambient">1 1 1 1</color>
             </ambient>
             <diffuse>
-              <texture texture="kitchen_png-sampler"/>
+              <texture texture="dining-room_png-sampler"/>
             </diffuse>
             <specular>
               <color sid="specular">0.5 0.5 0.5 1</color>
