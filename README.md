@@ -14,9 +14,11 @@ ask your teammates, tutors or on Webcms.
 ros2 launch comp3431_ass3_worlds house1.launch.py
 ```
 
-## Rooms
+## About the QR Codes - Read Carefully
 
-The new QR code blocks will have an encoded string with the room name and the items in the room. The encoded string will start with the room name, then all items, all separated by a whitespace. Room names and item names are guaranteed to be lower case and separated by "-" if they consit of more than one word (eg. "living-room"). This naming follows PDDL's conventions, so you can the room and item names directly when creating your PDDL problem file. The QR code text for house1 is given below.
+The new QR code blocks will have an encoded string with the room name and the items in the room. The encoded string will start with the room name, then all items, all separated by a whitespace.
+
+Room names and item names are guaranteed to be lower case and separated by "-" if they consit of more than one word (eg. "living-room"). This naming follows PDDL's conventions, so you can the room and item names directly when creating your PDDL problem file. Examples are given in the figure below.
 
 There is one QR code per room, and it is guaranteed that there is always going to be at least one metre free space directly in the map's +x direction from the QR code. Nav2 will fail to navigate the robot exactly to the QR code's position as it considers the QR code as an obstacle. The green area exists to guarantee a space you can request Nav2 to navigate to. This area is depicted with a green circle in the digram.
 
